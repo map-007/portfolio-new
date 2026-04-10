@@ -56,7 +56,7 @@ const Experiences = () => {
             <div className="container" ref={containerRef}>
                 <SectionTitle title="My Experience" />
                 {/* Ambient Liquid Aura */}
-                <div className="absolute top-1/2 left-[70%] -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] lg:w-[600px] lg:h-[600px] bg-primary/20 rounded-[50%] blur-[100px] lg:blur-[150px] pointer-events-none animate-pulse"></div>
+                <div className="absolute top-1/2 left-[60%] sm:left-[65%] lg:left-[70%] -translate-x-1/2 -translate-y-1/2 w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] md:w-[400px] md:h-[400px] lg:w-[600px] lg:h-[600px] bg-primary/20 rounded-[50%] blur-[80px] sm:blur-[100px] lg:blur-[150px] pointer-events-none animate-pulse"></div>
 
 
                 <div className="grid gap-14">
