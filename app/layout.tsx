@@ -31,6 +31,7 @@ const robotoFlex = Roboto_Flex({
 export const metadata: Metadata = {
     title: 'Portfolio - Min Aung Paing',
     description: 'Personal portfolio of Min Aung Paing',
+    viewport: 'width=device-width, initial-scale=1, maximum-scale=5',
 };
 
 export default function RootLayout({
