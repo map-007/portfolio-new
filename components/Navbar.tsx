@@ -37,7 +37,7 @@ const Navbar = () => {
             {/* Liquid Glass Header */}
             <div className="fixed z-[5] top-4 right-4 md:top-6 md:right-auto md:left-1/2 md:-translate-x-1/2 w-max max-w-[90vw]">
                 <div className="flex items-center p-1 rounded-full bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.1)] transition-all">
-                    
+
                     {/* Desktop Navigation */}
                     <div className="hidden md:flex items-center gap-1 px-1">
                         {MENU_LINKS.map((link) => {
@@ -57,14 +57,13 @@ const Navbar = () => {
                         })}
                     </div>
 
-                    {/* Desktop Contact CTA */}
-                    <a 
+                    <a
                         href="https://drive.google.com/file/d/1EDiRba8T__FCn5gNBz-8DW_51veKKFaw/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hidden md:block ml-1 mr-1 px-4 py-2 text-xs font-semibold bg-primary text-primary-foreground rounded-full hover:scale-105 transition-transform"
                     >
-                        Let's Talk
+                        Let&apos;s Talk
                     </a>
 
                     {/* Mobile Navigation Trigger */}
@@ -129,7 +128,7 @@ const Navbar = () => {
                                     if (link.name.toLowerCase() === 'github') Icon = Github;
                                     if (link.name.toLowerCase() === 'linkedin') Icon = Linkedin;
                                     if (link.name.toLowerCase() === 'facebook') Icon = Facebook;
-                                    
+
                                     return (
                                         <li key={link.name}>
                                             <a
