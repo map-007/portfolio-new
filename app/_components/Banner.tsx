@@ -71,7 +71,7 @@ const Banner = () => {
         <section className="relative overflow-hidden" id="banner">
             {/* Ambient Liquid Aura */}
             <div className="absolute top-1/2 left-[70%] -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] lg:w-[600px] lg:h-[600px] bg-primary/20 rounded-[50%] blur-[100px] lg:blur-[150px] pointer-events-none animate-pulse"></div>
-            
+
             <ArrowAnimation />
             <div
                 className="container h-[100svh] min-h-[530px] max-md:pb-10 flex justify-between items-center max-md:flex-col"
@@ -94,7 +94,7 @@ const Banner = () => {
                         as="link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        href={'https://drive.google.com/file/d/1EDiRba8T__FCn5gNBz-8DW_51veKKFaw/view?usp=drive_link'}
+                        href={'https://drive.google.com/file/d/1mOcAR2hNfZrTRoNxiemrqX5HFPkMQusG/view?usp=drive_link'}
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
