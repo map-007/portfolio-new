@@ -58,7 +58,7 @@ const Navbar = () => {
                     </div>
 
                     <a
-                        href="https://drive.google.com/file/d/1EDiRba8T__FCn5gNBz-8DW_51veKKFaw/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/1mOcAR2hNfZrTRoNxiemrqX5HFPkMQusG/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hidden md:block ml-1 mr-1 px-4 py-2 text-xs font-semibold bg-primary text-primary-foreground rounded-full hover:scale-105 transition-transform"
