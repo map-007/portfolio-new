@@ -92,7 +92,7 @@ const Navbar = () => {
 
             <div
                 className={cn(
-                    'overlay fixed inset-0 z-[2] bg-black/70 transition-all duration-150',
+                    'overlay fixed inset-0 z-[2] bg-black/40 backdrop-blur-sm transition-all duration-150',
                     {
                         'opacity-0 invisible pointer-events-none': !isMenuOpen,
                     },
@@ -107,16 +107,23 @@ const Navbar = () => {
                     { 'translate-x-0': isMenuOpen },
                 )}
             >
+                {/* Liquid Glass Background */}
+                <div className="absolute inset-0 z-[-1] bg-gradient-to-b from-white/10 via-white/5 to-transparent backdrop-blur-3xl"></div>
+
+                {/* Animated Gradient Overlay */}
                 <div
                     className={cn(
-                        'fixed inset-0 scale-150 translate-x-1/2 rounded-[50%] bg-background-light duration-700 delay-150 z-[-1]',
+                        'absolute inset-0 scale-150 translate-x-1/2 rounded-[50%] bg-gradient-to-br from-primary/20 via-transparent to-transparent duration-700 delay-150 z-[-1]',
                         {
                             'translate-x-0': isMenuOpen,
                         },
                     )}
                 ></div>
 
-                <div className="grow flex md:items-center w-full max-w-[300px] mx-8 sm:mx-auto">
+                {/* Subtle Border Effect */}
+                <div className="absolute inset-0 border-l border-white/10 pointer-events-none z-[-1]"></div>
+
+                <div className="grow flex md:items-center w-full max-w-[300px] mx-8 sm:mx-auto relative z-10">
                     <div className="flex gap-10 lg:justify-between max-lg:flex-col w-full">
                         <div className="max-lg:order-2">
                             <p className="text-muted-foreground mb-5 md:mb-8">
@@ -176,7 +183,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="w-full max-w-[300px] mx-8 sm:mx-auto">
+                <div className="w-full max-w-[300px] mx-8 sm:mx-auto relative z-10">
                     <p className="text-muted-foreground mb-4">GET IN TOUCH</p>
                     <a href={`mailto:${GENERAL_INFO.email}`}>
                         {GENERAL_INFO.email}
