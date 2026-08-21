@@ -450,7 +450,7 @@ export const MY_EXPERIENCE = [
     {
         title: 'Frontend Developer',
         company: 'PROMINENCE CO., LTD',
-        duration: '07/2024 - present',
+        duration: '07/2024 - 06/2026',
     },
     {
         title: 'Frontend Developer',
